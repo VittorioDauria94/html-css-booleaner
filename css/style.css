@@ -8,6 +8,10 @@ main {
     margin-left: 10px;
 }
 
+footer {
+    margin-left: 10px;
+}
+
 /* banner */
 header {
     height: 100px;
@@ -91,4 +95,35 @@ thead {
 
 .bgc-light-blu {
     background-color: rgb(177, 229, 242);
+}
+
+/* pubblicità */
+.monitor {
+    height: 200px;
+    width: 230px;
+    margin-top: 10px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.graph {
+    height: 200px;
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
